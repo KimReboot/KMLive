@@ -54,6 +54,7 @@
 		FA0E503F241F898B0073E2C6 /* KMLive */ = {
 			isa = PBXGroup;
 			children = (
+				FA7B37D3241FD3ED006AC790 /* Class */,
 				FA0E5040241F898B0073E2C6 /* AppDelegate.swift */,
 				FA0E5042241F898B0073E2C6 /* SceneDelegate.swift */,
 				FA0E5046241F898B0073E2C6 /* Main.storyboard */,
@@ -62,6 +63,61 @@
 				FA0E504E241F898C0073E2C6 /* Info.plist */,
 			);
 			path = KMLive;
+			sourceTree = "<group>";
+		};
+		FA7B37D3241FD3ED006AC790 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FA7B37D4241FD3ED006AC790 /* Home */,
+				FA7B37D5241FD3ED006AC790 /* Tools */,
+				FA7B37D6241FD3ED006AC790 /* Follow */,
+				FA7B37D7241FD3ED006AC790 /* Profile */,
+				FA7B37D8241FD3ED006AC790 /* Live */,
+				FA7B37D9241FD3ED006AC790 /* Main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FA7B37D4241FD3ED006AC790 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA7B37D5241FD3ED006AC790 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FA7B37D6241FD3ED006AC790 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		FA7B37D7241FD3ED006AC790 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FA7B37D8241FD3ED006AC790 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		FA7B37D9241FD3ED006AC790 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
