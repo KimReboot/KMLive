@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FA0E5041241F898B0073E2C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E5040241F898B0073E2C6 /* AppDelegate.swift */; };
 		FA0E5043241F898B0073E2C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E5042241F898B0073E2C6 /* SceneDelegate.swift */; };
-		FA0E5045241F898B0073E2C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E5044241F898B0073E2C6 /* ViewController.swift */; };
 		FA0E5048241F898B0073E2C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0E5046241F898B0073E2C6 /* Main.storyboard */; };
 		FA0E504A241F898C0073E2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0E5049241F898C0073E2C6 /* Assets.xcassets */; };
 		FA0E504D241F898C0073E2C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0E504B241F898C0073E2C6 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		FA0E503D241F898B0073E2C6 /* KMLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0E5040241F898B0073E2C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA0E5042241F898B0073E2C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA0E5044241F898B0073E2C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA0E5047241F898B0073E2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA0E5049241F898C0073E2C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA0E504C241F898C0073E2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				FA0E5040241F898B0073E2C6 /* AppDelegate.swift */,
 				FA0E5042241F898B0073E2C6 /* SceneDelegate.swift */,
-				FA0E5044241F898B0073E2C6 /* ViewController.swift */,
 				FA0E5046241F898B0073E2C6 /* Main.storyboard */,
 				FA0E5049241F898C0073E2C6 /* Assets.xcassets */,
 				FA0E504B241F898C0073E2C6 /* LaunchScreen.storyboard */,
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA0E5045241F898B0073E2C6 /* ViewController.swift in Sources */,
 				FA0E5041241F898B0073E2C6 /* AppDelegate.swift in Sources */,
 				FA0E5043241F898B0073E2C6 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,7 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kimo.KMLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kimo.KMLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
